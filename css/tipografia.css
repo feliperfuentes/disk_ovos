@@ -1,0 +1,55 @@
+.font-lf-1 {
+  font: 600 4rem/1.125 "Libre Franklin";
+}
+
+.font-lf-2 {
+  font: 400 3rem/1.25 "Libre Franklin";
+}
+
+.font-lf-1, .font-lf-2 {
+  letter-spacing: 0.02em;
+}
+
+.font-lf-3 {
+  font: 600 2rem/1.125 "Libre Franklin";
+}
+
+.font-lf-4 {
+  font: 600 1.5rem "Libre Franklin";
+}
+
+.font-lf-3, .font-lf-4 {
+  letter-spacing: 0.04em;
+}
+
+.font-lf-5 {
+  font: 600 1.125rem/1.111 "Libre Franklin";
+}
+
+.font-ns-1 {
+  font: 600 3rem/1.25 "Noto Sans";
+}
+
+.font-ns-2 {
+  font: 400 1.5rem/1.5 "Noto Sans";
+}
+
+.font-ns-3 {
+  font: 600 1.25rem/1.2 "Noto Sans";
+}
+
+.font-ns-4 {
+  font: 400 1.25rem/1.2 "Noto Sans";
+}
+
+.font-ns-5 {
+  font: 400 1.25rem/1.3 "Noto Sans";
+}
+
+.font-ns-6 {
+  font: 400 1.125rem/1.333 "Noto Sans";
+}
+
+.font-ns-7 {
+  font: 600 1rem/1.25 "Noto Sans";
+}
