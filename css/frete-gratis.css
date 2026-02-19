@@ -1,0 +1,10 @@
+.frete-gratis-container {
+  background: var(--cor-p12);
+}
+
+.frete-gratis {
+  display: flex;
+  gap: 12px;
+  padding: 8px 0;
+  justify-content: center;
+}

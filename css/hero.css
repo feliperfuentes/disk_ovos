@@ -1,0 +1,54 @@
+.hero-container {
+  background-image: url('../img/bg-hero.svg');
+}
+
+.hero {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  background-image: url('../img/gema-superior.svg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.h1-container {
+  max-width: 760px;
+  text-align: center;
+}
+
+.h1-container h1 {
+  margin-bottom: 12px;
+}
+
+.desc-img-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 40px;
+}
+
+.desc-hero {
+  max-width: 560px;
+}
+
+.desc-hero p {
+  max-width: 460px;
+  margin-bottom: 20px;
+}
+
+.enfoque-desc {
+  font: 600 1.5rem/1.5 "Noto Sans";
+}
+
+.btn-comprar-ovos {
+  display: flex;
+  align-items: center;
+  justify-self: start;
+  gap: 12px;
+  padding: 12px 24px;
+  background: var(--cor-p2);
+  border-radius: 5px;
+}

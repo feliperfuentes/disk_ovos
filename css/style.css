@@ -1,3 +1,13 @@
 @import "./global.css";
 @import "./cores.css";
 @import "./tipografia.css";
+
+/* HEADER */
+@import "./header.css";
+
+/* FRETE GRÁTIS */
+@import "./frete-gratis.css";
+
+/* HERO */
+@import "./hero.css";
+

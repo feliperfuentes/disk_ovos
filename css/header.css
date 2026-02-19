@@ -1,0 +1,30 @@
+.header-container {
+  background: var(--cor-p2);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+}
+
+.menu-superior {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.menu-superior a {
+  color: var(--cor-p12);
+}
+
+.menu-superior a:hover {
+  color: var(--cor-branco);
+}
+
+.btn-menu {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
