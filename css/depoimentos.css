@@ -1,0 +1,32 @@
+#depoimentos > p {
+  margin-bottom: 80px;
+}
+
+.avaliacoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.card-avaliacoes {
+  width: 360px;
+  height: 288px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.estrelas {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 16px;
+}
+
+.card-avaliacoes .estrelas, figcaption {
+  align-self: flex-end;
+}
+
+.card-avaliacoes blockquote {
+  flex-grow: 1;
+}

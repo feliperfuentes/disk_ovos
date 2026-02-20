@@ -34,3 +34,10 @@ a {
 h2 {
   margin-bottom: 40px;
 }
+
+.sombra-card {
+  border: 1px solid var(--cor-c2);
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 16px 20px -10px rgba(0,0,0,0.06); 
+  box-shadow: 0px 16px 20px -10px rgba(0,0,0,0.06);
+}
