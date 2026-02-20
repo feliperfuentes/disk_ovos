@@ -1,0 +1,57 @@
+#empresa {
+  background: var(--cor-c12);
+}
+
+#empresa p:first-of-type {
+  margin-bottom: 32px;
+}
+
+.empresa {
+  background: url('../img/gema-inferior.svg') top no-repeat, url('../img/gema-superior.svg') bottom no-repeat;;
+}
+
+.info-empresa {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.galeria {
+  background: var(--cor-preto);
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(165px, auto)); */
+  grid-template-columns: repeat(auto-fill, minmax(265px, auto));
+  padding: 10px;
+  gap: 10px;
+  justify-content: center;
+}
+
+/* .galeria {
+  background: var(--cor-preto);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  gap: 10px;
+} */
+
+.galeria li {
+  max-width: 265px;
+}
+
+.galeria img {
+  filter: brightness(75%);
+  border: 0px solid;
+  transition: 0.3s;
+}
+
+.galeria img:hover {
+  filter: brightness(100%);
+  border: 10px solid var(--cor-p2);
+}
+
+@media (max-width: 1214px) {
+  .galeria {
+    grid-template-columns: repeat(auto-fill, minmax(180px, auto));
+  }
+}
