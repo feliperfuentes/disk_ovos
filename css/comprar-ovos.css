@@ -1,0 +1,60 @@
+.comprar-ovos-container {
+  background: var(--cor-c12);
+}
+
+#comprar-ovos p:first-of-type {
+  margin-bottom: 32px;
+}
+
+.comprar-ovos-container p {
+  max-width: 850px;
+}
+
+.comprar-ovos {
+  background: url('../img/gema-inferior.svg') top no-repeat;
+}
+
+.cards-comprar-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 80px;
+}
+
+.card-comprar {
+  background: var(--cor-preto);
+  padding: 40px;
+  border-radius: 16px;
+}
+
+.card-comprar h3 {
+  margin-bottom: 40px;
+}
+
+.mapa {
+  border-radius: 16px;
+  /* margin-bottom: 40px; */
+}
+
+.cards-receba-redes-container {
+  display: grid;
+  gap: 40px;
+}
+
+.group-comprar-ovos {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.group-comprar-ovos img {
+  margin-top: 5px;
+}
+
+#comprar-ovos .negrito {
+  font-weight: 600;
+}
+
+.card-comprar .group-comprar-ovos {
+  margin-top: 40px;
+}
