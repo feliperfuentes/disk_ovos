@@ -17,6 +17,7 @@
 
 .menu-superior a {
   color: var(--cor-p12);
+  transition: 0.25s;
 }
 
 .menu-superior a:hover {
