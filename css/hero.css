@@ -3,8 +3,8 @@
 }
 
 .hero {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -51,4 +51,13 @@
   padding: 12px 24px;
   background: var(--cor-p2);
   border-radius: 5px;
+}
+
+@media (max-width: 800px) {
+.hero {
+  gap: 60px;
+}
+.enfoque-desc {
+  font: 600 1.25rem/1.4 "Noto Sans";
+}
 }

@@ -29,3 +29,18 @@
   align-items: center;
   gap: 12px;
 }
+
+.icone-menu {
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+.icone-menu {
+  display: block;
+}
+
+.menu-header {
+  display: none;
+}
+}
