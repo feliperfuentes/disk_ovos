@@ -30,3 +30,19 @@
 .card-avaliacoes blockquote {
   flex-grow: 1;
 }
+
+@media (max-width: 800px) {
+  #depoimentos > p {
+    margin-bottom: 40px;
+  }
+  .avaliacoes {
+    gap: 24px;
+  }
+  .card-avaliacoes {
+    width: 360px;
+    height: 288px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+  }
+}
