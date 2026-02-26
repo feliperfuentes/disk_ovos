@@ -67,3 +67,12 @@
   font: 300 1.25rem/1.4 "Noto Sans";
 }
 }
+
+@media (max-width: 500px) {
+  .font-lf-1 {
+    font: 600 2.25rem/1.111 "Libre Franklin";
+  }
+  .font-lf-2 {
+    font: 400 2rem/1 "Libre Franklin";
+  }
+}

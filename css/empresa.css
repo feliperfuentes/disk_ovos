@@ -55,3 +55,18 @@
     grid-template-columns: repeat(auto-fill, minmax(180px, auto));
   }
 }
+
+@media (max-width: 875px) {
+  .info-empresa {
+    grid-template-columns: 1fr;
+  }
+  .galeria {
+    grid-template-columns: repeat(auto-fill, minmax(150px, auto));
+  }
+}
+
+@media (max-width: 500px) {
+  .galeria {
+    grid-template-columns: repeat(auto-fill, minmax(140px, auto));
+  }
+}
