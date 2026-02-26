@@ -8,9 +8,12 @@
 
 .info-ovos {
   display: grid;
+  /* grid-template-columns: 1fr 1fr; */
   grid-template-columns: 1fr 1fr;
   margin-top: 80px;
   gap: 40px;
+  align-items: center;
+  justify-items: center
 }
 
 .beneficios {
@@ -40,4 +43,38 @@
 .card-ovos span {
   font: 300 0.875rem/1 "Noto Sans";
   align-self: flex-end;
+}
+
+/* @media (max-width: 800px) {
+.info-ovos {
+grid-template-columns: auto auto;
+
+}
+} */
+
+
+@media (max-width: 800px) {
+.info-ovos {
+  grid-template-columns: 1fr;
+  margin-top: 0px;
+  gap: 24px;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.img-ovos {
+  display: flex;
+  justify-content: center;
+}
+.img-ovos img {
+  max-width: 90%;
+}
+.beneficios {
+  gap: 24px;
+  justify-content: center;
+}
+.img-ovos {
+  max-width: 600px;
+}
 }
