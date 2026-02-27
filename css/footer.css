@@ -61,3 +61,17 @@
   text-align: center;
   padding: 20px 0;
 }
+
+@media (max-width: 500px) {
+  .footer-cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+  .logo-footer {
+    max-width: 112px;
+  }
+  .rodape-base {
+    padding: 20px 24px;
+  }
+}
