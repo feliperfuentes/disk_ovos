@@ -54,10 +54,34 @@
 }
 
 @media (max-width: 800px) {
-.hero {
-  gap: 60px;
+  .hero {
+    gap: 60px;
+  }
+  .enfoque-desc {
+    font: 600 1.25rem/1.4 "Noto Sans";
+  }
 }
-.enfoque-desc {
-  font: 600 1.25rem/1.4 "Noto Sans";
-}
+
+@media (max-width: 500px) {
+  .desc-img-container {
+    /* grid-template-columns: 1fr;
+    align-items: center;
+    gap: 24px; */
+    display: flex;
+    flex-direction: column;
+  }
+  .desc-hero {
+    order: 1;
+  }
+  .img-hero {
+    order: 0;
+  }
+  .btn-comprar-ovos {
+    justify-content: center;
+    align-items: center;
+  }
+  .desc-hero p {
+    max-width: 310px;
+    margin-bottom: 20px;
+  }
 }
