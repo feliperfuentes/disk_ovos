@@ -67,20 +67,25 @@
 }
 
 @media (max-width: 627px) {
-
-}
-
-@media (max-width: 500px) {
-  .desc-img-container {
+.desc-img-container {
     display: flex;
     flex-direction: column;
   }
   .desc-hero {
     order: 1;
+    display: flex;
+    flex-direction: column;
   }
   .img-hero {
     order: 0;
   }
+  .desc-hero p {
+    max-width: initial;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 500px) {
   .btn-comprar-ovos {
     justify-content: center;
     align-items: center;
