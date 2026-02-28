@@ -60,13 +60,18 @@
   .enfoque-desc {
     font: 600 1.25rem/1.4 "Noto Sans";
   }
+  .btn-comprar-ovos {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 627px) {
+
 }
 
 @media (max-width: 500px) {
   .desc-img-container {
-    /* grid-template-columns: 1fr;
-    align-items: center;
-    gap: 24px; */
     display: flex;
     flex-direction: column;
   }

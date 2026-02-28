@@ -43,8 +43,15 @@ h2 {
 }
 
 @media (max-width: 800px) {
-.container {
-  padding: 60px 24px;
-  margin: 0 auto;
+  .container {
+    padding: 60px 24px;
+    margin: 0 auto;
+  }
 }
+
+@media (max-width: 500px) {
+  .container {
+    padding: 60px 20px;
+    margin: 0 auto;
+  }
 }
