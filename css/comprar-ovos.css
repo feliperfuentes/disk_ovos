@@ -71,6 +71,9 @@
   .card-comprar {
     padding: 24px;
   }
+  .comprar-ovos {
+    padding-top: 95px;
+  }
 }
 
 @media (max-width: 500px) {

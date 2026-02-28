@@ -63,6 +63,10 @@
   .galeria {
     grid-template-columns: repeat(auto-fill, minmax(150px, auto));
   }
+  .empresa {
+    padding-top: 95px;
+    padding-bottom: 95px;
+  }
 }
 
 @media (max-width: 500px) {
