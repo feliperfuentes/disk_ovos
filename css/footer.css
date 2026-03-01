@@ -62,7 +62,16 @@
   padding: 20px 0;
 }
 
+@media (max-width: 800px) {
+  .footer {
+    padding: 60px 24px;
+  }
+}
+
 @media (max-width: 500px) {
+  .footer {
+    padding: 60px 20px;
+  }
   .footer-cards-container {
     display: flex;
     flex-direction: column;
