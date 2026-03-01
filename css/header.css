@@ -16,6 +16,7 @@
 }
 
 .menu-superior a {
+  display: inline-block;
   color: var(--cor-p12);
   transition: 0.25s;
 }
@@ -36,11 +37,33 @@
 }
 
 @media (max-width: 800px) {
-.icone-menu {
-  display: block;
-}
+  .icone-menu {
+    display: block;
+  }
 
-.menu-header {
-  display: none;
-}
+  /* .menu-header {
+    display: none;
+  } */
+
+  .header {
+    position: relative;
+  }
+
+  .menu-header {
+    background: var(--cor-p2);
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    padding: 24px;
+    /* z-index: -1; */
+  }
+
+  .menu-superior {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .menu-superior a {
+    padding: 10px 20px;
+  }
 }
