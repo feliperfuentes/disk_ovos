@@ -13,6 +13,11 @@ class Menu {
     } else {
       event.srcElement.attributes.src.value = imgClosed;
     }
+    this.mostrarMenu();
+  }
+
+  mostrarMenu() {
+    this.menu.classList.toggle("menu-open");
   }
 
   abrirFecharMenu(event) {
