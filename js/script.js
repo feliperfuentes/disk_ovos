@@ -13,7 +13,8 @@ class Menu {
       event.srcElement.attributes.src.value = imgOpen;
       this.linksMenu.forEach((link) => {
         link.addEventListener("click", () => {
-          this.abrirFecharMenu(event);
+          this.btnMenu.children[0].attributes[0].value = imgClosed;
+          this.menu.classList.remove("menu-open");
         });
       });
     } else {
@@ -25,13 +26,13 @@ class Menu {
     this.menu.classList.toggle("menu-open");
   }
 
-  fecharAoClicarLinks() {
+  /* fecharAoClicarLinks() {
     this.linksMenu.forEach((link) => {
       link.addEventListener("click", () => {
         console.log(link);
       });
     });
-  }
+  } */
 
   abrirFecharMenu(event) {
     this.trocarImgBtn(event);
