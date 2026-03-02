@@ -58,6 +58,10 @@
     /* z-index: -1; */
   }
 
+  .menu-open {
+    
+  }
+
   .menu-superior {
     flex-direction: column;
     gap: 10px;
