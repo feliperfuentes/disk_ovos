@@ -2,6 +2,7 @@ class Menu {
   constructor() {
     this.btnMenu = document.querySelector("#icone-menu");
     this.menu = document.querySelector(".menu-header");
+    this.linksMenu = document.querySelectorAll(".menu-superior a");
     this.abrirFecharMenu = this.abrirFecharMenu.bind(this);
   }
 
@@ -10,18 +11,31 @@ class Menu {
     const imgOpen = "./img/icone-menu-open.svg";
     if (event.srcElement.attributes.src.value == imgClosed) {
       event.srcElement.attributes.src.value = imgOpen;
+      this.linksMenu.forEach((link) => {
+        link.addEventListener("click", () => {
+          this.abrirFecharMenu(event);
+        });
+      });
     } else {
       event.srcElement.attributes.src.value = imgClosed;
     }
-    this.mostrarMenu();
   }
 
   mostrarMenu() {
     this.menu.classList.toggle("menu-open");
   }
 
+  fecharAoClicarLinks() {
+    this.linksMenu.forEach((link) => {
+      link.addEventListener("click", () => {
+        console.log(link);
+      });
+    });
+  }
+
   abrirFecharMenu(event) {
     this.trocarImgBtn(event);
+    this.mostrarMenu();
   }
 
   addEvents() {
