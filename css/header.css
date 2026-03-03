@@ -12,12 +12,14 @@
 .menu-superior {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 8px;
 }
 
 .menu-superior a {
   display: inline-block;
   color: var(--cor-p12);
+  padding: 10px 20px;
+  border-radius: 4px;
   transition: 0.25s;
 }
 
@@ -80,6 +82,8 @@
   .menu-superior {
     flex-direction: column;
     gap: 10px;
+    font: 600 1.5rem/1.111 "Libre Franklin";
+
   }
 
   .menu-superior a {
