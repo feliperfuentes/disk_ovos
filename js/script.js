@@ -15,10 +15,13 @@ class Menu {
         link.addEventListener("click", () => {
           this.btnMenu.children[0].attributes[0].value = imgClosed;
           this.menu.classList.remove("menu-open");
+          document.documentElement.style.overflow = "visible";
         });
       });
+      document.documentElement.style.overflow = "hidden";
     } else {
       event.srcElement.attributes.src.value = imgClosed;
+      document.documentElement.style.overflow = "visible";
     }
   }
 

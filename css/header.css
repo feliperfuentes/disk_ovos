@@ -36,26 +36,45 @@
   cursor: pointer;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 @media (max-width: 800px) {
+  html {
+    /* position: relative; */
+    overflow-x: hidden;
+  }
+  body {
+    /* position: relative; */
+    overflow-x: hidden;
+  }
+
   .icone-menu {
     display: block;
   }
 
   .header {
     position: relative;
+    /* overflow-x: hidden; */
   }
 
   .menu-header {
     background: var(--cor-p2);
     position: absolute;
     top: 80px;
-    right: 0px;
-    padding: 24px;
-    z-index: -1;
+    right: -1500px;
+    /* padding: 24px; */
+    padding-top: 40px;
+    width: 100vw;
+    height: 100vh; 
+    /* z-index: -10; */
+    /* transition: 0.25s; */
   }
 
   .menu-open {
-    z-index: 1;
+    /* z-index: 1; */
+    right: 0px;
   }
 
   .menu-superior {
