@@ -74,6 +74,9 @@
   .comprar-ovos {
     padding-top: 95px;
   }
+  .card-comprar .group-comprar-ovos:last-of-type {
+    margin-top: 24px;
+  }
   .group-comprar-ovos img {
     margin-top: 2px;
   }
