@@ -51,6 +51,11 @@
   padding: 12px 24px;
   background: var(--cor-p2);
   border-radius: 5px;
+  transition: background 0.25s;
+}
+
+.btn-comprar-ovos:hover {
+  background: var(--cor-p3);
 }
 
 @media (max-width: 800px) {
