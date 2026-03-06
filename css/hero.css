@@ -51,11 +51,15 @@
   padding: 12px 24px;
   background: var(--cor-p2);
   border-radius: 5px;
-  transition: background 0.25s;
 }
 
 .btn-comprar-ovos:hover {
-  background: var(--cor-p3);
+  color: #F3F6FB;
+  background: linear-gradient(180deg, rgba(91, 244, 115, 1) 0%, rgba(41, 187, 60, 1) 100%);
+}
+
+.btn-comprar-ovos:hover img {
+  filter: invert(1);
 }
 
 @media (max-width: 800px) {
