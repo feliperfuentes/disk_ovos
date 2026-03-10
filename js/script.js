@@ -46,3 +46,31 @@ class Menu {
 
 const menu = new Menu();
 menu.init();
+
+/* ROLAGEM SUAVE ENTRE SEÇÕES */
+
+class RolagemSuave {
+  constructor(links) {
+    this.linksScroll = document.querySelectorAll(links);
+    this.capturarEvento();
+  }
+
+  scrollSuave(event) {
+    event.preventDefault();
+    const targetId = event.target.getAttribute("href");
+    const targetElement = document.querySelector(targetId);
+
+    targetElement.scrollIntoView({
+      behavior: "smooth", // Define a rolagem suave
+      block: "start", // Alinha ao topo
+    });
+  }
+
+  capturarEvento() {
+    this.linksScroll.forEach((link) => {
+      link.addEventListener("click", this.scrollSuave);
+    });
+  }
+}
+
+const rolagemSuave = new RolagemSuave(".links-scroll");
