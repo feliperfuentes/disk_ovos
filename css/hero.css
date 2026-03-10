@@ -32,6 +32,9 @@
 
 .desc-hero {
   max-width: 560px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .desc-hero p {
@@ -85,6 +88,7 @@
     order: 1;
     display: flex;
     flex-direction: column;
+    align-items: stretch
   }
   .img-hero {
     order: 0;
